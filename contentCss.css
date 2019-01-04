@@ -1,0 +1,64 @@
+.y-fix-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 100px;
+    margin: auto;
+    text-align: center;
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.y-main-button {
+    border-radius: 40px;
+    box-shadow: 0 0 2px 1px lightgray;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.y-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.y-action-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.y-table {
+    min-width: 300px;
+    min-height: 50px;
+    border: solid 1px lightgray;
+}
+
+.y-fix-container button {
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px lightgray;
+}
+
+.y-fix-container tr, th {
+    padding: 4px;
+    border: solid 1px lightgray;
+}
+
+.y-change-td, .y-change-td input {
+    background-color: green;
+}
+
+.y-blcok-item {
+    background-color: gray;
+    color: gray
+}
+
